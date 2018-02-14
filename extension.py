@@ -1,3 +1,4 @@
+# this code sort the files on Desktop on the basis of file extension and move them in separate folders in Documents folder.
 import os
 import shutil
 filename, file_extension = os.path.splitext('')
@@ -17,5 +18,3 @@ for file in os.walk(dir1):
 
 
 
-#if not os.path.exists(newpath):
- #   os.makedirs(newpath)
