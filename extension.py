@@ -3,7 +3,7 @@ import os
 import shutil
 filename, file_extension = os.path.splitext('')
 
-dir1="C:\Users\saurav\Desktop\east"     
+dir1="C:\Users\saurav\Desktop"     
 inewpath = "C:\Users\saurav\Documents" 
 for file in os.walk(dir1):
    for x in file[2]:
